@@ -1,1 +1,25 @@
 /* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 51px 388px 209px 148px 355px 240px 49px;
+    grid-template-rows: 293px;
+    align-items: center;
+}
+.nav {
+grid-column: 2/3;
+display: grid;
+grid-template-columns: auto auto auto;
+list-style: circle;
+}
+.logo {
+    grid-column: 4/5;
+}
+.address {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    grid-column: 6/7;
+}
